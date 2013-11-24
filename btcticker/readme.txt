@@ -9,6 +9,8 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+== Description ==
+
 A side bar widget plugin which displays the prices of bitcoin for four of the most popular exchange rates.
 
 BTC China
@@ -26,7 +28,6 @@ The widget will automatically update with the current price of Bitcoin.
 1. Upload contents of btcticker to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the \\\\\\\\\\\\\\\'Plugins\\\\\\\\\\\\\\\' menu in WordPress
 3. Use the widgets menu on your wordpress theme to add the widget to the sidebar.
-
 
 == Frequently Asked Questions ==
 = 0.1 =
