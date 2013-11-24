@@ -34,7 +34,7 @@ If you like this plugin please donate bitcoin to 1JokP92X916fbvdT9pVdegqrt7c8hCF
 
 == Frequently Asked Questions ==
 
-Please e-mail me at richardmacarthy@hotmail.com
+If you have any questions please e-mail me at richardmacarthy@hotmail.com and I'll be happy to answer them.
 
 == Screenshots ==
 1. Sidebar widget screenshot showing all tickers.
