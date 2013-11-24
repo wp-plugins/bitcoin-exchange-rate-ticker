@@ -38,7 +38,7 @@ A menu under settings called "Bitcion Ticker Settings" can be used to turn on an
 
 == Screenshots ==
 
-1. screenshot-1.png
+1. screenshot-1
 
 == A brief Markdown Example ==
 
@@ -52,12 +52,12 @@ Ordered list:
 
 == Frequently Asked Questions == 
 
-None so far.
+NA
 
 == Changelog == 
 
-No change.
+NA
 
 == Upgrade Notice == 
 
-No updates
+NA
