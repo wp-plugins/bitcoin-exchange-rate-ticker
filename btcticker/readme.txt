@@ -29,10 +29,11 @@ The widget will automatically update with the current price of Bitcoin.
 
 
 == Frequently Asked Questions ==
-None
+= 0.1 =
+* None so far.
 
 == Screenshots ==
-1. screenshot-1.png
+1. Sidebar widget screenshot showing all tickers.
 
 == Changelog ==
 = 0.1 =
