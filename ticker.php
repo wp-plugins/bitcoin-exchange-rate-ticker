@@ -2,7 +2,7 @@
 	/*
 	Plugin Name: Bitcoin Price Ticker
 	Plugin URI: http://www.richardmacarthy.com/
-	Description: Plugin for bitcoin price ticker
+	Description: A plugin which creates a sidebar widget to show rates for the most popular Bitcoin exchanges.
 	Author: Richard Macarthy
 	Version: 1.0
 	Author URI: http://www.richardmacarthy.com/
