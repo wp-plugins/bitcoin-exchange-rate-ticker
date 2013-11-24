@@ -19,7 +19,7 @@
 		?>
         	<div class="ticker-widget">
 				<div class="ticker-heading">
-                	<img src="<?php echo $url."/btcticker/bitcoin.png"; ?>"/>&nbsp;&nbsp;Current Bitcoin Rates 
+                	<img src="<?php echo $url."/bitcoin-exchange-rate-ticker/bitcoin.png"; ?>"/>&nbsp;&nbsp;Current Bitcoin Rates 
                 </div>            
         <?php
 		

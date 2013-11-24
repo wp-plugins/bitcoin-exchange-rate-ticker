@@ -11,12 +11,9 @@
 		$url = plugins_url();
 	?>
 		
-        <link rel="stylesheet" type="text/css" href="<?php echo $url."/btcticker/css/ticker.css" ?>"/>
+        <link rel="stylesheet" type="text/css" href="<?php echo $url."/bitcoin-exchange-rate-ticker/css/ticker.css" ?>"/>
             
  	<?php
-	
-		wp_register_script( 'my_plugin_script', plugins_url('../js/main.js', __FILE__), array('jquery'));
-		wp_enqueue_script( 'my_plugin_script' );
 	
 	}
 	
