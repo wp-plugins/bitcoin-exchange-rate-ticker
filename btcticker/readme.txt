@@ -38,7 +38,7 @@ A menu under settings called "Bitcion Ticker Settings" can be used to turn on an
 
 == Screenshots ==
 
-Screenshot screenshot-1.png
+screenshot-1.png
 
 == A brief Markdown Example ==
 
