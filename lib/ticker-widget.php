@@ -86,7 +86,7 @@
 		?>
         		<div class="ticker-footer">
                     <div class="ticker-link">
-                        <a href="#">
+                        <a href="http://wordpress.org/plugins/bitcoin-exchange-rate-ticker/screenshots/">
                             &#8250; Get the Bitcoin Ticker
                         </a>
                     </div>
