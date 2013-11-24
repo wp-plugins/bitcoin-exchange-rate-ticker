@@ -39,20 +39,30 @@ function bitcoin_settings_html ()
 		<?php
                     
             foreach($tickObj as $key=>$value){
+			
+			if($value->ident == "btcchina")
+			{
+				$cur = "¥";
+			}
+			else
+			{
+				$cur = "$";
+			}
         ?>
-        
+				
+				
               <h4><?php echo $value->name; ?></h4>
               <div>
-                <p>High - $<?php echo $value->high; ?></p>
+                <p>High - $cur<?php echo $value->high; ?></p>
               </div>
               <div>
-                <p>Low - $<?php echo $value->low; ?></p>
+                <p>Low - $cur<?php echo $value->low; ?></p>
               </div>
               <div>
-                <p>Buy - $<?php echo $value->buy; ?></p>
+                <p>Buy - $cur<?php echo $value->buy; ?></p>
               </div>
               <div>
-                <p>Sel - $<?php echo $value->sell; ?></p>
+                <p>Sel - $cur<?php echo $value->sell; ?></p>
               </div>
               <div>
                 <p>Volume - <?php echo round($value->vol); ?> BTC</p>
