@@ -7,13 +7,20 @@
 		$chosenArr = array();
 		$url = plugins_url();
 		
-		foreach($options as $key=>$value)
+		if($options)
 		{
-			if($value == "on")
+		
+			foreach($options as $key=>$value)
 			{
-				$i++;
-				array_push($chosenArr,$key);
+				if($value == "on")
+				{
+					$i++;
+					array_push($chosenArr,$key);
+				}
 			}
+		}else
+		{
+			echo "<div style='color:red;'>Oops! You have not configured your plugin to display any tickers. Please choose which ticker to display in the <b>Wordpress Admin -> Settings -> Bitcoin Ticker Settings Page<b></div><br>";
 		}
 				
 		?>
