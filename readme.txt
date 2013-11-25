@@ -26,7 +26,7 @@ The widget will automatically update with the current price of Bitcoin.
 
 It takes a lot of time and effort co create plugins! If you like this plugin please donate Bitcoin to:
 
-*1JokP92X916fbvdT9pVdegqrt7c8hCFXJ4 
+1JokP92X916fbvdT9pVdegqrt7c8hCFXJ4 
 
 == Installation ==
 
