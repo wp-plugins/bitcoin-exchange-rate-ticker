@@ -106,7 +106,7 @@
 						$btceObj->buy = $json->ticker->buy;
 						$btceObj->sell = $json->ticker->sell;
 						$btceObj->last = $json->ticker->last;
-						$btceObj->vol = $json->ticker->vol;	
+						$btceObj->vol = $json->ticker->vol_cur;	
 						
 						return $btceObj;
 			    	
