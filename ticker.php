@@ -4,7 +4,7 @@
 	Plugin URI: http://www.richardmacarthy.com/
 	Description: A plugin which creates a sidebar widget to show rates for the most popular Bitcoin exchanges.
 	Author: Richard Macarthy
-	Version: 1.0
+	Version: 1.0.1
 	Author URI: http://www.richardmacarthy.com/
 	*/
 	
