@@ -24,11 +24,13 @@ Prices are live for each individual exchange website, therefore if the website i
 
 The widget will automatically update with the current price of Bitcoin.
 
-If you like this plugin please donate bitcoin to 1JokP92X916fbvdT9pVdegqrt7c8hCFXJ4 so that I can improve the widget.
+It takes a lot of time and effort co create plugins! If you like this plugin please donate Bitcoin to:
+
+*1JokP92X916fbvdT9pVdegqrt7c8hCFXJ4 
 
 == Installation ==
 
-1. Upload contents of btcticker to the `/wp-content/plugins/` directory.
+1. Upload contents of bitcoin-exchange-rate-ticker.zip to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the \\\\\\\\\\\\\\\'Plugins\\\\\\\\\\\\\\\' menu in WordPress
 3. Use the widgets menu on your wordpress theme to add the widget to the sidebar.
 
@@ -37,12 +39,18 @@ If you like this plugin please donate bitcoin to 1JokP92X916fbvdT9pVdegqrt7c8hCF
 If you have any questions please e-mail me at richardmacarthy@hotmail.com and I'll be happy to answer them.
 
 == Screenshots ==
+
 1. Sidebar widget screenshot showing all tickers.
 
 == Changelog ==
-= 0.1 =
+
+= 1.0 =
 * Initial release.
 
 == Upgrade Notice ==
-= 0.1 =
+
+= 1.0 =
 * Initial release.
+
+= 1.0.1 =
+* Bug Fixes
