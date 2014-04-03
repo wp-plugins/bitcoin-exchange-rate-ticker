@@ -57,7 +57,6 @@
 		// feed settings
 		add_settings_section('ticker_section', 'Ticker Settings', 'sctn_ticker', 'bitcion_ticker_settings_page');
 		add_settings_field('plugin_radio_btchina', 'BTC China', 'set_radio', 'bitcion_ticker_settings_page', 'ticker_section',$args=array("name"=>"btcchina"));
-		add_settings_field('plugin_radio_mtgox', 'Mt Gox', 'set_radio', 'bitcion_ticker_settings_page', 'ticker_section',$args=array("name"=>"mtgox"));
 		add_settings_field('plugin_radio_btce', 'BTC-e', 'set_radio', 'bitcion_ticker_settings_page', 'ticker_section',$args=array("name"=>"btce"));
 		add_settings_field('plugin_radio_bitstamp', 'Bitstamp', 'set_radio', 'bitcion_ticker_settings_page', 'ticker_section',$args=array("name"=>"bitstamp"));
 				
@@ -83,13 +82,6 @@
 					{
 						$checked = ($options['btcchina']==$item) ? ' checked="checked" ' : '';
 						echo "<label><input ".$checked." value='$item' name='btc_ticker_options[btcchina]' type='radio' /> $item </label>";
-					}
-				break;
-				case 'mtgox':
-					foreach($items as $item)
-					{
-						$checked = ($options['mtgox']==$item) ? ' checked="checked" ' : '';
-						echo "<label><input ".$checked." value='$item' name='btc_ticker_options[mtgox]' type='radio' /> $item </label>";
 					}
 				break;
 				case 'btce':
@@ -149,12 +141,6 @@
 		$api->api = "btcchina";
 		
 		$btcchina = $api->call();
-				
-		//MTGOX
-		
-		$api->api = "mtgox";
-		
-		$mtgox = $api->call();
 		
 		//BTCE 
 		

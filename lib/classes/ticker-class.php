@@ -10,7 +10,7 @@
 			switch ($this->api) {
 			    case "btcchina":
 			        	
-			        	$url = "https://vip.btcchina.com/bc/ticker";
+			        	$url = "https://data.btcchina.com/data/ticker";
 			        				        	
 				    	$curl = curl_init($url);
 				    	
@@ -41,41 +41,6 @@
 						
 						return $btcchinaObj;
 						
-			        break;
-			    case "mtgox":
-			    		
-			    		$url = "http://data.mtgox.com/api/1/BTCUSD/ticker";
-			    		
-			    		$curl = curl_init($url);
-				    	
-				    	if (is_resource($curl) === true)
-						{
-							curl_setopt($curl, CURLOPT_FAILONERROR, true);
-							curl_setopt($curl, CURLOPT_FOLLOWLOCATION, false);
-							curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-							curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
-							curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
-					
-							$result = curl_exec($curl);
-							curl_close($curl);
-						}
-						
-						$json = json_decode($result);
-			    		
-			    		$mtgoxObj = new stdClass;
-						
-						$mtgoxObj->ident = "mtgox";
-						$mtgoxObj->name = "MT Gox";
-						$mtgoxObj->high = $json->return->high->value;
-						$mtgoxObj->low = $json->return->low->value;
-						$mtgoxObj->buy = $json->return->buy->value;
-						$mtgoxObj->sell = $json->return->sell->value;
-						$mtgoxObj->last = $json->return->last->value;
-						$mtgoxObj->vol = $json->return->vol->value;
-
-			    		
-			    		return $mtgoxObj;
-			    		
 			        break;
 			    case "btce":
 			    	
