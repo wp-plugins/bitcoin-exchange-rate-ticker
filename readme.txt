@@ -28,6 +28,8 @@ It takes a lot of time and effort co create plugins! If you like this plugin ple
 
 1JokP92X916fbvdT9pVdegqrt7c8hCFXJ4 
 
+Thank you!
+
 == Installation ==
 
 1. Upload contents of bitcoin-exchange-rate-ticker.zip to the `/wp-content/plugins/` directory.
