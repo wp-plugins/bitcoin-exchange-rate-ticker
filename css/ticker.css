@@ -42,17 +42,15 @@
 	margin-top:10px;
 }
 .ticker-footer a{
-	font-size:9px;
-	color:#333;
+	font-size:12px;
+	color:#3cabfe !important;
 }
 .ticker-link {
-	margin-top:7px;
+	margin-top:3px;
+	padding-bottom: 3px;
+	font-size: 12px;
+	color: #aaa;
 	text-align:center;
 }
-.ticker-bitcoin-address {
-	margin-top:7px;
-	font-size:9px;
-	text-align:center;
-	padding-bottom:7px;
-}
+
 
