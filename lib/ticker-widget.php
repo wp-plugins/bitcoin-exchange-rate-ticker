@@ -93,12 +93,7 @@
 		?>
         		<div class="ticker-footer">
                     <div class="ticker-link">
-                        <a href="http://wordpress.org/plugins/bitcoin-exchange-rate-ticker/screenshots/">
-                            &#8250; Get the Bitcoin Ticker
-                        </a>
-                    </div>
-                    <div class="ticker-bitcoin-address">
-                        1JokP92X916fbvdT9pVdegqrt7c8hCFXJ4
+                        Powered by <a href="https://cakebet.com">CakeBet</a>
                     </div>
             	</div>
         	</div>

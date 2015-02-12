@@ -4,8 +4,8 @@ Contributors: suicidalfish
 Tags: bitcoin, excahnge ticker, mtgox, btcchina, bitstamp, btce
 Donate link: http://richardmacarthy.com/
 Requires at least: 3.0.1
-Tested up to: 3.6
-Stable tag: 1.0.1
+Tested up to: 4.1
+Stable Tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,6 +27,8 @@ The widget will automatically update with the current price of Bitcoin.
 It takes a lot of time and effort co create plugins! If you like this plugin please donate Bitcoin to:
 
 1JokP92X916fbvdT9pVdegqrt7c8hCFXJ4 
+
+Thank you!
 
 == Installation ==
 
@@ -54,3 +56,6 @@ If you have any questions please e-mail me at richardmacarthy@hotmail.com and I'
 
 = 1.0.1 =
 * Bug Fixes
+
+= 1.0.2 =
+* Style Updates
