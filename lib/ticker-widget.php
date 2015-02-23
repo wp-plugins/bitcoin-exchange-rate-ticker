@@ -93,7 +93,7 @@
 		?>
         		<div class="ticker-footer">
                     <div class="ticker-link">
-                        Powered by <a href="https://rjmacarthy.com">rjmacarthy</a>
+                        Powered by <a href="http://www.rjmacarthy.com">rjmacarthy</a>
                     </div>
             	</div>
         	</div>
