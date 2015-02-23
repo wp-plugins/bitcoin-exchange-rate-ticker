@@ -2,7 +2,7 @@
 
 Contributors: suicidalfish
 Tags: bitcoin, excahnge ticker, mtgox, btcchina, bitstamp, btce
-Donate link: http://richardmacarthy.com/
+Donate link: http://www.rjmacarthy.com/
 Requires at least: 3.0.1
 Tested up to: 4.1
 Stable Tag: 1.0.2
